@@ -1,4 +1,4 @@
-import {INCREMENT,DECREMENT} from './constant'
+import {INCREMENT,DECREMENT} from '../constant'
 
 export const createIncrementAcion = data =>({type:INCREMENT,data})
 export const createDecrementAcion = data =>({type:DECREMENT,data})
